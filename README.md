@@ -143,7 +143,7 @@ python src/visualisation.py
 
 ### ETL Pipeline
 ```python
-# Professional error handling and logging
+# Error handling and logging
 logger.info("Starting ETL Pipeline...")
 try:
     self.extract_data()
@@ -164,7 +164,7 @@ WITH customer_metrics AS (
 SELECT * FROM customer_metrics;
 ```
 
-### Professional Visualisations
+### Visualisations
 ```python
 # Multi-panel dashboards with business context
 fig, axes = plt.subplots(2, 2, figsize=(15, 12))
@@ -191,7 +191,7 @@ fig.suptitle('E-Commerce Analytics Dashboard')
 - Performance optimisation with indexing
 
 ### Data Visualisation
-- Professional dashboard creation
+- Dashboard creation
 - Business storytelling through data
 - Multiple chart types and statistical analysis
 
